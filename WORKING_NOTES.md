@@ -1,34 +1,25 @@
-# andy-kram-landing-page
+# WORKING_NOTES.md
 
-Personal professional landing page for Andy Kram.
+## Session 1
+### Date
+2026-03-23
 
-## Current status
-This repository is initialized with a simple `Hello World` page for Azure Static Web Apps deployment.
+### Goals
+- Create repository
+- Deploy Hello World page to Azure Static Web Apps
+- Connect repo to Replit
 
-## Project files
-- `index.html` — starter page
-- `PRD.md` — product requirements document
-- `STANDARDS.md` — technical and design standards
-- `WORKING_NOTES.md` — running log of work sessions
+### Work completed
+- Created starter `index.html`
+- Prepared `PRD.md`
+- Prepared `STANDARDS.md`
+- Prepared repository README
 
-## Deployment target
-Azure Static Web Apps
+### Next steps
+- Add headshot to `/images`
+- Add resume PDF to repo root
+- Replace Hello World with final landing page
+- Verify Azure deployment and custom domain
 
-## Local structure
-```text
-/
-├── index.html
-├── PRD.md
-├── STANDARDS.md
-├── WORKING_NOTES.md
-├── css/
-├── js/
-└── images/
-```
-
-## Next steps
-1. Replace the starter page with the final landing page.
-2. Add a professional headshot to `images/`.
-3. Add resume PDF to the repository root if required for class workflow.
-4. Connect the repo to Azure Static Web Apps.
-5. Import the repo into Replit for iteration.
+### Notes
+- After manual edits in Replit, tell the AI to re-read all files.

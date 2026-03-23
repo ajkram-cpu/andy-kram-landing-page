@@ -1,53 +1,70 @@
-# Product Requirement Document
+# STANDARDS.md
 
-## 01 — Problem Statement
-Andy Kram is a Business Analytics student at the University of Iowa graduating in 2026, targeting roles in finance, data analytics, and product management. A resume alone does not fully show project depth, technical skills, and professional positioning.
+## BAIS:3300 - Digital Product Management · Module 8 | Personal Landing Page Project
 
-This landing page gives recruiters and hiring managers a fast, structured way to understand Andy’s value, review featured projects, and contact him.
+## 1. Project Overview
+This project is a personal professional landing page for Andy Kram, a Business Analytics student at the University of Iowa. The goal is to present a clean, credible, and easy-to-scan overview of his skills, projects, and career interests for recruiters and hiring managers.
 
-## 02 — Target Audience
-Primary audience:
-- Recruiters for analytics, finance, and product roles
-- Hiring managers at finance, consulting, and technology companies
-- Employers evaluating internship and early-career candidates
+A successful outcome is a responsive single-page site that communicates value within 30–60 seconds and makes it easy for visitors to learn more or get in touch.
 
-Secondary audience:
-- Professors, classmates, and networking contacts
+## 2. Technical Standards
+- HTML5 semantic structure only
+- CSS3 in `css/stylesheet.css`
+- No inline styles and no `<style>` blocks in HTML
+- Static site only
+- Single `index.html` file at root
+- Images stored locally in `/images`
+- Responsive from 320px and wider
+- No horizontal scrolling
+- WCAG 2.2 AA accessibility targets
+- External links use `target="_blank"` and `rel="noopener noreferrer"`
 
-## 03 — Goals & Success Metrics
-| Goal | How We Measure It |
-|---|---|
-| Increase professional visibility | Page visits |
-| Generate recruiter outreach | LinkedIn messages or emails received |
-| Showcase project work clearly | Time on page and project section engagement |
-| Support applications | Number of applications submitted with landing page URL |
+### Folder structure
+```text
+/landing-page
+├── index.html
+├── PRD.md
+├── STANDARDS.md
+├── WORKING_NOTES.md
+├── /css
+│   └── stylesheet.css
+├── /js
+│   └── scripts.js
+└── /images
+    └── headshot.jpg
+```
 
-## 04 — Required Content
-- **Must:** Hero section with full name and professional tagline
-- **Must:** Short bio with school, major, graduation date, and career interests
-- **Must:** Professional headshot stored locally in `/images`
-- **Must:** Skills section grouped by technical and analytical strengths
-- **Must:** At least 3 featured projects with tools used and short outcomes
-- **Must:** Contact links for LinkedIn and email
-- **Should:** GitHub link
-- **Should:** Brief value proposition in the hero section
+### Framework
+- No framework — vanilla CSS only
 
-## 05 — Scope
-| In Scope This Week | Out of Scope |
-|---|---|
-| Single-page landing site | Multi-page website |
-| Static HTML and CSS | Backend or database |
-| Responsive layout | Advanced animation |
-| Hero, bio, skills, projects, contact sections | Blog or CMS |
+## 3. Design Standards
+### Color palette
+- Background: `#F8F9FA`
+- Primary text: `#212529`
+- Accent: `#0D6E6E`
+- Secondary background: `#E9ECEF`
 
-## 06 — Assumptions & Constraints
-Assumptions:
-- A GitHub repo will host the project.
-- Azure Static Web Apps will be used for deployment.
-- Replit will be used for rapid iteration.
-- A professional headshot is available.
+### Typography
+- Font family: Inter
+- Body size: 16px
+- Line height: 1.6
+- H1: 1.75rem bold
+- H2: 1.25rem bold
 
-Constraints:
-- Limited course timeline
-- No backend required
-- Must follow assignment standards and accessibility requirements
+### Imagery
+- One professional headshot only
+- No stock images
+- No emojis
+
+### Layout
+- Max content width: 800px
+- Sticky top navigation with anchor links
+- 60px vertical section spacing
+- Single-column mobile-first layout
+
+### Tone
+- Professional
+- Approachable
+- Data-driven
+- First-person writing
+- Clear and direct language

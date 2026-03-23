@@ -1,18 +1,34 @@
-Please read my `PRD.md` and `STANDARDS.md` before making any code changes.
+# andy-kram-landing-page
 
-You are building a personal professional landing page for Andy Kram.
+Personal professional landing page for Andy Kram.
 
-Use these links as source material:
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
-- GitHub: https://github.com/YOUR-USERNAME/YOUR-REPO
+## Current status
+This repository is initialized with a simple `Hello World` page for Azure Static Web Apps deployment.
 
-Requirements:
-1. Keep the project as a static site.
-2. Follow every rule in `STANDARDS.md`.
-3. Use content and priorities from `PRD.md`.
-4. Do not link to or embed my resume on the page.
-5. Use only locally stored images.
-6. Build a clean, professional, recruiter-friendly landing page.
-7. Keep accessibility, semantic HTML, and responsive design non-negotiable.
+## Project files
+- `index.html` — starter page
+- `PRD.md` — product requirements document
+- `STANDARDS.md` — technical and design standards
+- `WORKING_NOTES.md` — running log of work sessions
 
-Before editing code, summarize the plan. Then implement it.
+## Deployment target
+Azure Static Web Apps
+
+## Local structure
+```text
+/
+├── index.html
+├── PRD.md
+├── STANDARDS.md
+├── WORKING_NOTES.md
+├── css/
+├── js/
+└── images/
+```
+
+## Next steps
+1. Replace the starter page with the final landing page.
+2. Add a professional headshot to `images/`.
+3. Add resume PDF to the repository root if required for class workflow.
+4. Connect the repo to Azure Static Web Apps.
+5. Import the repo into Replit for iteration.
